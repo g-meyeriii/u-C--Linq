@@ -19,20 +19,22 @@ namespace Linq1
             uc.SortStudentByAge();
             uc.AllStudentsFromBejingTech();
 
-            int[] someInts = { 30, 12, 4, 3, 12 };
-            IEnumerable<int> sortedInts = from i in someInts orderby i select i;
-            IEnumerable<int> reversedInts = sortedInts.Reverse();
+            uc.StudentAndUniversityCollection();
 
-            foreach(int i in reversedInts)
-            {
-                Console.WriteLine(i);
-            }
-            IEnumerable<int>reversedSortedInts = from i in someInts orderby i descending select i;
+            //int[] someInts = { 30, 12, 4, 3, 12 };
+            //IEnumerable<int> sortedInts = from i in someInts orderby i select i;
+            //IEnumerable<int> reversedInts = sortedInts.Reverse();
 
-            foreach(int i in reversedSortedInts)
-            {
-                Console.WriteLine(i);
-            }
+            //foreach(int i in reversedInts)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //IEnumerable<int>reversedSortedInts = from i in someInts orderby i descending select i;
+
+            //foreach(int i in reversedSortedInts)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
             //Console.WriteLine("Please enter University Id");
             //string input = Console.ReadLine();
